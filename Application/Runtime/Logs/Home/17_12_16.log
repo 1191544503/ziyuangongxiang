@@ -1,0 +1,1559 @@
+[ 2017-12-16T12:05:30+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-12-16T12:05:35+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=showfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0015s ]
+SQL: SELECT `filename`,`filesavename`,`upfile_time`,`filesavefolder`,`fileusername`,`filelabel` FROM `file` WHERE ( filesavefolder='testdata' and isdelete=0 ) ORDER BY upfile_time desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 40 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-12-16T12:05:38+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=showfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `file` WHERE ( fileusername='16'and isdelete=0 and filesavefolder='ziyuan' ) ORDER BY upfile_time desc  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `filelabel` FROM `file` WHERE ( fileusername='16' and isdelete=0 and filelabel !='' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant label - assumed 'label' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-12-16T12:05:41+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=第1章%20绪论.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0219s ]
+
+[ 2017-12-16T12:05:42+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0290s ]
+
+[ 2017-12-16T12:05:46+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=aab94f77460078af184e362eb505ea52.pdf&reallyfile=第2章%20线性表.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='aab94f77460078af184e362eb505ea52.pdf' [ RunTime:0.0248s ]
+
+[ 2017-12-16T12:05:46+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=aab94f77460078af184e362eb505ea52.pdf&reallyfile=%E7%AC%AC2%E7%AB%A0%20%E7%BA%BF%E6%80%A7%E8%A1%A8.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='aab94f77460078af184e362eb505ea52.pdf' [ RunTime:0.0209s ]
+
+[ 2017-12-16T12:05:50+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=ccd0d70b11f5751beddc19f29f0fab55.pdf&reallyfile=第3章%20栈和队列.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='ccd0d70b11f5751beddc19f29f0fab55.pdf' [ RunTime:0.0810s ]
+
+[ 2017-12-16T12:05:51+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=ccd0d70b11f5751beddc19f29f0fab55.pdf&reallyfile=%E7%AC%AC3%E7%AB%A0%20%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='ccd0d70b11f5751beddc19f29f0fab55.pdf' [ RunTime:0.0191s ]
+
+[ 2017-12-16T12:05:56+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=29de51c4abaef7db1e4786ccde7d1fc7.pdf&reallyfile=第4章%20串和数组.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='29de51c4abaef7db1e4786ccde7d1fc7.pdf' [ RunTime:0.0179s ]
+
+[ 2017-12-16T12:05:56+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=29de51c4abaef7db1e4786ccde7d1fc7.pdf&reallyfile=%E7%AC%AC4%E7%AB%A0%20%E4%B8%B2%E5%92%8C%E6%95%B0%E7%BB%84.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='29de51c4abaef7db1e4786ccde7d1fc7.pdf' [ RunTime:0.0206s ]
+
+[ 2017-12-16T12:06:01+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=第5章%20树和二叉树.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0275s ]
+
+[ 2017-12-16T12:06:01+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0209s ]
+
+[ 2017-12-16T12:06:05+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=第6章%20图.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0343s ]
+
+[ 2017-12-16T12:06:05+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0266s ]
+
+[ 2017-12-16T12:06:10+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=第7章%20查找技术.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0016s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0205s ]
+
+[ 2017-12-16T12:06:10+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0196s ]
+
+[ 2017-12-16T12:06:38+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-12-16T12:06:41+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=showfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `file` WHERE ( fileusername='16'and isdelete=0 and filesavefolder='ziyuan' ) ORDER BY upfile_time desc  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `filelabel` FROM `file` WHERE ( fileusername='16' and isdelete=0 and filelabel !='' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant label - assumed 'label' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2017-12-16T12:06:43+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=第1章%20绪论.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0533s ]
+
+[ 2017-12-16T12:06:43+08:00 ] 10.146.0.17 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0137s ]
+
+[ 2017-12-16T12:23:11+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-12-16T12:23:24+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=showfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `file` WHERE ( fileusername='16'and isdelete=0 and filesavefolder='ziyuan' ) ORDER BY upfile_time desc  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `filelabel` FROM `file` WHERE ( fileusername='16' and isdelete=0 and filelabel !='' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant label - assumed 'label' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2017-12-16T12:23:31+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=第1章%20绪论.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0245s ]
+
+[ 2017-12-16T12:23:42+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=��1��%20����.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0162s ]
+
+[ 2017-12-16T12:23:45+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=aab94f77460078af184e362eb505ea52.pdf&reallyfile=第2章%20线性表.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='aab94f77460078af184e362eb505ea52.pdf' [ RunTime:0.0178s ]
+
+[ 2017-12-16T12:23:49+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=aab94f77460078af184e362eb505ea52.pdf&reallyfile=��2��%20���Ա�.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='aab94f77460078af184e362eb505ea52.pdf' [ RunTime:0.0119s ]
+
+[ 2017-12-16T12:23:52+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=ccd0d70b11f5751beddc19f29f0fab55.pdf&reallyfile=第3章%20栈和队列.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='ccd0d70b11f5751beddc19f29f0fab55.pdf' [ RunTime:0.0251s ]
+
+[ 2017-12-16T12:24:00+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=ccd0d70b11f5751beddc19f29f0fab55.pdf&reallyfile=��3��%20ջ�Ͷ���.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0015s ]
+SQL: update file set file.count=file.count+1 where filesavename ='ccd0d70b11f5751beddc19f29f0fab55.pdf' [ RunTime:0.0096s ]
+
+[ 2017-12-16T12:24:01+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=29de51c4abaef7db1e4786ccde7d1fc7.pdf&reallyfile=第4章%20串和数组.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='29de51c4abaef7db1e4786ccde7d1fc7.pdf' [ RunTime:0.0295s ]
+
+[ 2017-12-16T12:24:07+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=29de51c4abaef7db1e4786ccde7d1fc7.pdf&reallyfile=��4��%20��������.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0012s ]
+SQL: update file set file.count=file.count+1 where filesavename ='29de51c4abaef7db1e4786ccde7d1fc7.pdf' [ RunTime:0.0178s ]
+
+[ 2017-12-16T12:24:10+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=第5章%20树和二叉树.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0102s ]
+
+[ 2017-12-16T12:24:20+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=��5��%20���Ͷ�����.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0155s ]
+
+[ 2017-12-16T12:24:23+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=第6章%20图.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0225s ]
+
+[ 2017-12-16T12:24:27+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=��6��%20ͼ.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0012s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0127s ]
+
+[ 2017-12-16T12:24:31+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=第7章%20查找技术.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0190s ]
+
+[ 2017-12-16T12:24:35+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=��7��%20���Ҽ���.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0016s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0137s ]
+
+[ 2017-12-16T12:24:36+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=第8章%20排序技术.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0174s ]
+
+[ 2017-12-16T12:24:41+08:00 ] 10.203.77.56 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=��8��%20������.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0012s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0239s ]
+
+[ 2017-12-16T13:10:38+08:00 ] 10.203.87.50 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-12-16T17:15:32+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-12-16T17:15:40+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=showfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `file` WHERE ( fileusername='16'and isdelete=0 and filesavefolder='ziyuan' ) ORDER BY upfile_time desc  [ RunTime:0.0006s ]
+SQL: SELECT DISTINCT  `filelabel` FROM `file` WHERE ( fileusername='16' and isdelete=0 and filelabel !='' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant label - assumed 'label' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-12-16T17:15:51+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=第1章%20绪论.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0197s ]
+
+[ 2017-12-16T17:15:52+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0012s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0218s ]
+
+[ 2017-12-16T17:16:13+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=aab94f77460078af184e362eb505ea52.pdf&reallyfile=第2章%20线性表.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0012s ]
+SQL: update file set file.count=file.count+1 where filesavename ='aab94f77460078af184e362eb505ea52.pdf' [ RunTime:0.0168s ]
+
+[ 2017-12-16T17:16:13+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=aab94f77460078af184e362eb505ea52.pdf&reallyfile=%E7%AC%AC2%E7%AB%A0%20%E7%BA%BF%E6%80%A7%E8%A1%A8.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='aab94f77460078af184e362eb505ea52.pdf' [ RunTime:0.0236s ]
+
+[ 2017-12-16T17:16:28+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=ccd0d70b11f5751beddc19f29f0fab55.pdf&reallyfile=第3章%20栈和队列.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='ccd0d70b11f5751beddc19f29f0fab55.pdf' [ RunTime:0.0202s ]
+
+[ 2017-12-16T17:16:28+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=ccd0d70b11f5751beddc19f29f0fab55.pdf&reallyfile=%E7%AC%AC3%E7%AB%A0%20%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='ccd0d70b11f5751beddc19f29f0fab55.pdf' [ RunTime:0.0201s ]
+
+[ 2017-12-16T17:16:36+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=29de51c4abaef7db1e4786ccde7d1fc7.pdf&reallyfile=第4章%20串和数组.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='29de51c4abaef7db1e4786ccde7d1fc7.pdf' [ RunTime:0.0158s ]
+
+[ 2017-12-16T17:16:36+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=29de51c4abaef7db1e4786ccde7d1fc7.pdf&reallyfile=%E7%AC%AC4%E7%AB%A0%20%E4%B8%B2%E5%92%8C%E6%95%B0%E7%BB%84.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0015s ]
+SQL: update file set file.count=file.count+1 where filesavename ='29de51c4abaef7db1e4786ccde7d1fc7.pdf' [ RunTime:0.0221s ]
+
+[ 2017-12-16T17:16:42+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=第5章%20树和二叉树.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0121s ]
+
+[ 2017-12-16T17:16:42+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0215s ]
+
+[ 2017-12-16T17:16:45+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=第6章%20图.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0220s ]
+
+[ 2017-12-16T17:16:46+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0900s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0330s ]
+
+[ 2017-12-16T17:16:51+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=第6章%20图.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0150s ]
+
+[ 2017-12-16T17:16:51+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0135s ]
+
+[ 2017-12-16T17:16:55+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=第7章%20查找技术.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0178s ]
+
+[ 2017-12-16T17:16:55+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0135s ]
+
+[ 2017-12-16T17:17:00+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=第8章%20排序技术.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0012s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0253s ]
+
+[ 2017-12-16T17:17:00+08:00 ] 10.205.33.75 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=%E7%AC%AC8%E7%AB%A0%20%E6%8E%92%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0113s ]
+
+[ 2017-12-16T19:44:49+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-12-16T19:45:13+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2017-12-16T19:45:16+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=showfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `file` WHERE ( fileusername='16'and isdelete=0 and filesavefolder='ziyuan' ) ORDER BY upfile_time desc  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `filelabel` FROM `file` WHERE ( fileusername='16' and isdelete=0 and filelabel !='' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant label - assumed 'label' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-12-16T19:45:19+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0129s ]
+
+[ 2017-12-16T19:45:23+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0203s ]
+
+[ 2017-12-16T19:45:23+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0012s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0219s ]
+
+[ 2017-12-16T19:45:23+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0163s ]
+
+[ 2017-12-16T19:45:23+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0012s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0230s ]
+
+[ 2017-12-16T19:45:23+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003741s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0139s ]
+
+[ 2017-12-16T19:45:23+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0113s ]
+
+[ 2017-12-16T19:45:23+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0201s ]
+
+[ 2017-12-16T19:45:23+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0008s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0221s ]
+
+[ 2017-12-16T19:45:23+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0176s ]
+
+[ 2017-12-16T19:45:23+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=761d13f031f57452a188c8ccc79ef4e6.pdf&reallyfile=%E7%AC%AC1%E7%AB%A0%20%E7%BB%AA%E8%AE%BA.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='761d13f031f57452a188c8ccc79ef4e6.pdf' [ RunTime:0.0161s ]
+
+[ 2017-12-16T19:45:23+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=aab94f77460078af184e362eb505ea52.pdf&reallyfile=%E7%AC%AC2%E7%AB%A0%20%E7%BA%BF%E6%80%A7%E8%A1%A8.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='aab94f77460078af184e362eb505ea52.pdf' [ RunTime:0.0179s ]
+
+[ 2017-12-16T19:45:26+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=ccd0d70b11f5751beddc19f29f0fab55.pdf&reallyfile=%E7%AC%AC3%E7%AB%A0%20%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='ccd0d70b11f5751beddc19f29f0fab55.pdf' [ RunTime:0.0113s ]
+
+[ 2017-12-16T19:45:27+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=29de51c4abaef7db1e4786ccde7d1fc7.pdf&reallyfile=%E7%AC%AC4%E7%AB%A0%20%E4%B8%B2%E5%92%8C%E6%95%B0%E7%BB%84.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='29de51c4abaef7db1e4786ccde7d1fc7.pdf' [ RunTime:0.0180s ]
+
+[ 2017-12-16T19:45:29+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0110s ]
+
+[ 2017-12-16T19:45:30+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0160s ]
+
+[ 2017-12-16T19:45:31+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0189s ]
+
+[ 2017-12-16T19:45:31+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0162s ]
+
+[ 2017-12-16T19:45:31+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0119s ]
+
+[ 2017-12-16T19:45:31+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0017s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0148s ]
+
+[ 2017-12-16T19:45:31+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0111s ]
+
+[ 2017-12-16T19:45:31+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0016s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0170s ]
+
+[ 2017-12-16T19:45:31+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0209s ]
+
+[ 2017-12-16T19:45:31+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0111s ]
+
+[ 2017-12-16T19:45:31+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=4341246cb8e31bc9d2c3586e82428660.pdf&reallyfile=%E7%AC%AC5%E7%AB%A0%20%E6%A0%91%E5%92%8C%E4%BA%8C%E5%8F%89%E6%A0%91.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0016s ]
+SQL: update file set file.count=file.count+1 where filesavename ='4341246cb8e31bc9d2c3586e82428660.pdf' [ RunTime:0.0141s ]
+
+[ 2017-12-16T19:45:31+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0128s ]
+
+[ 2017-12-16T19:45:32+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0012s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0588s ]
+
+[ 2017-12-16T19:45:32+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0129s ]
+
+[ 2017-12-16T19:45:32+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0113s ]
+
+[ 2017-12-16T19:45:32+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0015s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0148s ]
+
+[ 2017-12-16T19:45:32+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0119s ]
+
+[ 2017-12-16T19:45:32+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008808s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0141s ]
+
+[ 2017-12-16T19:45:33+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0107s ]
+
+[ 2017-12-16T19:45:33+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0115s ]
+
+[ 2017-12-16T19:45:33+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0141s ]
+
+[ 2017-12-16T19:45:33+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=d7c815d085250b735c9999b70d2dc952.pdf&reallyfile=%E7%AC%AC6%E7%AB%A0%20%E5%9B%BE.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0008s ]
+SQL: update file set file.count=file.count+1 where filesavename ='d7c815d085250b735c9999b70d2dc952.pdf' [ RunTime:0.0102s ]
+
+[ 2017-12-16T19:45:33+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0161s ]
+
+[ 2017-12-16T19:45:34+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0294s ]
+
+[ 2017-12-16T19:45:34+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0015s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0417s ]
+
+[ 2017-12-16T19:45:34+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0195s ]
+
+[ 2017-12-16T19:45:34+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0111s ]
+
+[ 2017-12-16T19:45:34+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0251s ]
+
+[ 2017-12-16T19:45:34+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0107s ]
+
+[ 2017-12-16T19:45:34+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026189s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0155s ]
+
+[ 2017-12-16T19:45:35+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0154s ]
+
+[ 2017-12-16T19:45:35+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003595s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0113s ]
+
+[ 2017-12-16T19:45:35+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0145s ]
+
+[ 2017-12-16T19:45:35+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=%E7%AC%AC8%E7%AB%A0%20%E6%8E%92%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0164s ]
+
+[ 2017-12-16T19:45:36+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=%E7%AC%AC8%E7%AB%A0%20%E6%8E%92%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0118s ]
+
+[ 2017-12-16T19:45:36+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=%E7%AC%AC8%E7%AB%A0%20%E6%8E%92%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0157s ]
+
+[ 2017-12-16T19:45:36+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=%E7%AC%AC8%E7%AB%A0%20%E6%8E%92%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0135s ]
+
+[ 2017-12-16T19:45:36+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=%E7%AC%AC8%E7%AB%A0%20%E6%8E%92%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0012s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0105s ]
+
+[ 2017-12-16T19:45:36+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=%E7%AC%AC8%E7%AB%A0%20%E6%8E%92%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0158s ]
+
+[ 2017-12-16T19:45:36+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=%E7%AC%AC8%E7%AB%A0%20%E6%8E%92%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0142s ]
+
+[ 2017-12-16T19:45:36+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=%E7%AC%AC8%E7%AB%A0%20%E6%8E%92%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0012s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0168s ]
+
+[ 2017-12-16T19:45:36+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=%E7%AC%AC8%E7%AB%A0%20%E6%8E%92%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0123s ]
+
+[ 2017-12-16T19:45:36+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=%E7%AC%AC8%E7%AB%A0%20%E6%8E%92%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0140s ]
+
+[ 2017-12-16T19:45:36+08:00 ] 10.146.0.55 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=8b0fbc37b750562711c5ff58b965c933.pdf&reallyfile=%E7%AC%AC8%E7%AB%A0%20%E6%8E%92%E5%BA%8F%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='8b0fbc37b750562711c5ff58b965c933.pdf' [ RunTime:0.0186s ]
+
+[ 2017-12-16T21:56:31+08:00 ] 10.160.0.6 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-12-16T22:04:03+08:00 ] 10.146.0.30 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0015s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-12-16T22:04:06+08:00 ] 10.146.0.30 /ziyuangongxiang/index.php?m=Home&c=File&a=showfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `file` WHERE ( fileusername='16'and isdelete=0 and filesavefolder='ziyuan' ) ORDER BY upfile_time desc  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `filelabel` FROM `file` WHERE ( fileusername='16' and isdelete=0 and filelabel !='' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant label - assumed 'label' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-12-16T22:04:10+08:00 ] 10.146.0.30 /ziyuangongxiang/index.php?m=Home&c=File&a=showFileSearchByLabel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `file` WHERE ( fileusername='16'and isdelete=0 and filelabel='无' ) ORDER BY upfile_time desc  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-12-16T22:04:21+08:00 ] 10.146.0.30 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-12-16T22:04:23+08:00 ] 10.146.0.30 /ziyuangongxiang/index.php?m=Home&c=File&a=showfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `file` WHERE ( fileusername='16'and isdelete=0 and filesavefolder='ziyuan' ) ORDER BY upfile_time desc  [ RunTime:0.0007s ]
+SQL: SELECT DISTINCT  `filelabel` FROM `file` WHERE ( fileusername='16' and isdelete=0 and filelabel !='' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant label - assumed 'label' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2017-12-16T22:04:43+08:00 ] 10.146.0.30 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0204s ]
+
+[ 2017-12-16T22:04:43+08:00 ] 10.146.0.30 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0179s ]
+
+[ 2017-12-16T22:04:43+08:00 ] 10.146.0.30 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0213s ]
+
+[ 2017-12-16T22:04:43+08:00 ] 10.146.0.30 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0171s ]
+
+[ 2017-12-16T22:04:43+08:00 ] 10.146.0.30 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0114s ]
+
+[ 2017-12-16T22:04:43+08:00 ] 10.146.0.30 /ziyuangongxiang/index.php?m=Home&c=File&a=downloadFile&folders=ziyuan&file=fd61d68304773539c4fd8811a8533607.pdf&reallyfile=%E7%AC%AC7%E7%AB%A0%20%E6%9F%A5%E6%89%BE%E6%8A%80%E6%9C%AF.pdf&fileusername=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: update file set file.count=file.count+1 where filesavename ='fd61d68304773539c4fd8811a8533607.pdf' [ RunTime:0.0139s ]
+

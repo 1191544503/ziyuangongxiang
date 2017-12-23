@@ -1,0 +1,69 @@
+路由命名：route::get('/member/one')->name('one')；
+命名后可以直接用route('name')代表这个路由
+
+
+查询构造器
+
+$bool = DB::table('student')->insert([
+            ['id'=>6,'name'=>'zhangshan']
+        ]);
+$num=DB::table('student')->where(id,'1')->update([['name'=>'2']]);
+$num=DB::table('student')->where(条件)->increment('id',3);//自减 decrement
+
+$num=DB::table('student')->where(id,'>=',1)->delete();
+
+DB::table('student')->truncate();
+
+get：
+
+$result=DB::table('student')->get();//返回所有表数据
+
+first:
+
+$result=DB::table('student')->order('id','desc')->first()//返回结果级的第一条数据
+
+where:
+
+$result=DB::table('student')->where(条件)->get();//单个条件查询
+
+$result=DB::table('student')->whereRaw(条件)->get();//多个条件查询
+
+返回指定的字段：
+
+pluck
+result=DB::table('student')->where(条件)->pluck('name');//返回指定的字段
+等于
+list:
+result=DB::table('student')->where(条件)-list('name');//返回指定的字段，可以制定返回某个键作为下标
+
+select:
+
+result=DB::table('student')->select('id','name')->get();//返回指定的字段，可以制定返回某个键作为下标
+
+分段打印数据：
+chunk:
+$result = DB::table('table')->chunk(2,function($date){
+	var_dump($date);
+	if(你的条件){
+		return false;
+}
+});
+
+聚合函数：
+
+
+$count=DB::table('student')->count();
+$max =DB::table('student')->max('id');
+$min =DB::table('student')->min('id');
+$ave =DB::table('student')->ave('id');
+$sum =DB::table('student')->sum('id');
+
+
+
+
+
+
+
+
+
+

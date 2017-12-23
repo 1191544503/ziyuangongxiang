@@ -1,0 +1,243 @@
+[ 2017-12-03T10:59:03+08:00 ] 10.146.0.40 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0012s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-12-03T10:59:30+08:00 ] 10.146.0.40 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-12-03T10:59:49+08:00 ] 10.146.0.40 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-12-03T10:59:57+08:00 ] 10.146.0.40 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-12-03T14:52:31+08:00 ] 219.217.191.133 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-12-03T14:52:37+08:00 ] 219.217.191.133 /ziyuangongxiang/index.php?m=Home&c=File&a=showfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `file` WHERE ( fileusername='16'and isdelete=0 and filesavefolder='ziyuan' ) ORDER BY upfile_time desc  [ RunTime:0.0005s ]
+SQL: SELECT DISTINCT  `filelabel` FROM `file` WHERE ( fileusername='16' and isdelete=0 and filelabel !='' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant label - assumed 'label' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-12-03T14:52:39+08:00 ] 219.217.191.133 /ziyuangongxiang/index.php?m=Home&c=File&a=showfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: SELECT `filename`,`filesavename`,`upfile_time`,`filesavefolder`,`fileusername`,`filelabel` FROM `file` WHERE ( filesavefolder='testdata' and isdelete=0 ) ORDER BY upfile_time desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 40 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 40 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-12-03T14:52:45+08:00 ] 219.217.191.133 /ziyuangongxiang/index.php?m=Home&c=File&a=showfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `file` WHERE ( fileusername='16'and isdelete=0 and filesavefolder='ziyuan' ) ORDER BY upfile_time desc  [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `filelabel` FROM `file` WHERE ( fileusername='16' and isdelete=0 and filelabel !='' )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant label - assumed 'label' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 33 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-12-03T18:32:11+08:00 ] 10.204.34.29 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0014s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2017-12-03T22:40:05+08:00 ] 210.30.1.253 /ziyuangongxiang/index.php?teacherid=MTAwODYxMjM0NTgw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0013s ]
+SQL: SELECT DISTINCT  `fileusername` FROM `file` WHERE ( filesavefolder='ziyuan' )  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant fileusername - assumed 'fileusername' /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/IndexController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-12-03T22:40:23+08:00 ] 210.30.1.253 /ziyuangongxiang/index.php?m=Home&c=File&a=showfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `file` [ RunTime:0.0010s ]
+SQL: SELECT `filename`,`filesavename`,`upfile_time`,`filesavefolder`,`fileusername`,`filelabel` FROM `file` WHERE ( filesavefolder='testdata' and isdelete=0 ) ORDER BY upfile_time desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 40 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 40 行.
+NOTIC: [8] Undefined index: username /usr/local/nginx/html/parabola923/ziyuangongxiang/Application/Home/Controller/FileController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
